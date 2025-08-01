@@ -1,0 +1,136 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+.vs/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Pliki tymczasowe Visual Studio
+backend/.vs/
+
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# IIS
+[Ii][Ii][Ss]Express/
+
+# DotCover
+.idea/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Publish outputs
+[Pp]ublish/
+
+# Node.js (jeśli masz front w tym repo)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Local configs (tylko pliki developerskie!)
+appsettings.Development.json
+
+# Rider / JetBrains IDE
+.idea/
+
+# Temporary files
+~$*
+*.tmp
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# NCrunch
+_ncrunch_*
+.*crunch*.local.xml
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Entity Framework
+Migrations/ (opcjonalnie jeśli generujesz na nowo)
+
+# Azure Functions (opcjonalne)
+.local/
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# Sensitive files (klucze API, certyfikaty)
+*.pfx
+*.p12
+secrets.json
